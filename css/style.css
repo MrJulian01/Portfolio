@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  background-image: url("../img/header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-color: #143a70;
+  opacity: 1;
+  background-attachment: fixed;
+}
+
+header h1 {
+  margin: 0px;
+  padding-top: 320px;
+  color: white;
+  line-height: 35px;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+header p {
+  color: white;
+  line-height: 14px;
+  font-size: 13px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+
+header .top_content {margin-left: 300px;padding-bottom: 320px;}
+
+#buttons a {
+  padding: 9px;
+  text-decoration: none;
+  color: white;
+  font-weight: 200;
+}
+
+#buttons .left {border: 2px solid white; margin-right: 5px;}
+
+#buttons .right {border: 2px solid #56a556;background-color: #56a556;-right: 20px;}
+
+#buttons .right:hover {
+  transition: .4s;
+  border: 2px solid #447744;
+  background-color: #447744;
+}
+
+
+
+
+
+
+nav {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  transition: .4s;
+  color: #b4eab4;
+}
