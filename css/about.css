@@ -42,26 +42,6 @@ header .top_content {
 
 }
 
-#buttons a {
-  padding: 9px;
-  text-decoration: none;
-  color: white;
-  font-weight: 200;
-}
-
-#buttons .left {border: 2px solid grey; margin-right: 5px;}
-
-#buttons .right {border: 2px solid #56a556;background-color: #56a556;-right: 20px;}
-
-#buttons .right:hover {
-  transition: .4s;
-  border: 2px solid #447744;
-  background-color: #447744;
-}
-
-
-
-
 nav {
   text-align: center;
   padding: 30px 8px 8px 8px;
